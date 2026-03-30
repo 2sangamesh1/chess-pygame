@@ -1,17 +1,19 @@
 # Chess (Pygame)
 
-Basic chess board implementation using Python and Pygame.
+A chess game built in Python using Pygame with full rule implementation.
 
 ## Features
 
-* Rendered 8×8 chessboard
-* Click to select and move pieces
-* Unicode chess pieces
-* Square highlighting
+* Legal move validation (no self-check)
+* Check, checkmate, stalemate
+* Castling (all conditions handled)
+* En passant
+* Pawn promotion with choice
 
-## Current Status
+## Tech
 
-* Basic movement implemented (no rules yet)
+* Python
+* Pygame
 
 ## Run
 
@@ -20,7 +22,7 @@ pip install pygame
 python main.py
 ```
 
-## Next
+## Notes
 
-* Pawn movement rules
-* Turn system
+* 2-player (no AI)
+* No advanced draw rules (50-move, repetition)
